@@ -13,7 +13,7 @@ const leerDB = () => {
 
   const info = fs.readFileSync(archivo, { enconding: "utf-8" });
   const data = JSON.parse(info);
-  console.log(data);
+  // console.log(data);
   return data;
 };
 
